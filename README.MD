@@ -2,6 +2,7 @@
 
 ## About
 
+Python script that decodes the Quasar RAT configuration using hardcoded ENCRYPTIONKEY.
 
 ## Usage
 
