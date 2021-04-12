@@ -25,6 +25,7 @@ def decode_data(data, key, mode):
 
 if len(sys.argv) != 3:
     print('Usage: quasar_analyze.py [ENCRYPTIONKEY] [DATA_TO_DECODE]')
+    sys.exit(1)
 
 ENCRYPTIONKEY = sys.argv[1]
 ENC_HOST = sys.argv[2].encode()
